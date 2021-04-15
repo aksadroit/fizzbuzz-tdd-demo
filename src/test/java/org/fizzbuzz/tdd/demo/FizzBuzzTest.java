@@ -12,5 +12,12 @@ class FizzBuzzTest {
 		assertEquals("fizz", fizzBuzz.calculate(3));
 		
 	}
+	
+	@Test
+	void testForBuzz() {
+		FizzBuzz fizzBuzz = new FizzBuzz();
+		assertEquals("buzz", fizzBuzz.calculate(10));
+		
+	}
 
 }
