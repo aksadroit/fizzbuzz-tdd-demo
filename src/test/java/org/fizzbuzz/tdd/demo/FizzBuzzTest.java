@@ -19,5 +19,12 @@ class FizzBuzzTest {
 		assertEquals("buzz", fizzBuzz.calculate(10));
 		
 	}
+	
+	@Test
+	void testForNeitherFizzNorBuzz() {
+		FizzBuzz fizzBuzz = new FizzBuzz();
+		assertEquals("11", fizzBuzz.calculate(11));
+		
+	}
 
 }
